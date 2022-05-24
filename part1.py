@@ -11,17 +11,34 @@ An example of what should appear on the console when the code is run:
 Enter a number: 11
 Enter another number: 2
 Enter another number: 5
-
+ 
 The smallest number is 2
-'''
+'''       
 
-number = int(input("Enter a number: "))
+"""
+x = int(input("Enter a number: "))
 
-smallest = number
+smallest = x
 
-number = int(input("Enter another number: "))
+y = int(input("Enter another number: "))
 
-if number < smallest:
-  smallest = number
+if y < x:
+  smallest = x
   
 print("The smallest number is ", smallest)
+
+"""
+
+a = int(input("enter number babeh: "))
+b = int(input("enter another number hun:"))
+c = int(input("enter a third number boo-boo:"))
+
+if a < b and a < c :
+  smallest = a
+  print("The smallest number is", smallest,", honey muffin")
+elif b < a and b < c :
+ smallest = b
+ print("The smallest number is", smallest,", sugar plum")
+elif c < a and c < b :
+ smallest = c
+ print("The smallest number is", smallest,", sweet pea")

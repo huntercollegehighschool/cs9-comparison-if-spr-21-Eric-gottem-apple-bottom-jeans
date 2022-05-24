@@ -14,7 +14,7 @@ Enter a number:  -5
 Enter another number:  -2
 negative
 
-Enter a number:  7
+Enter  a number:  7
 Enter another number:  0
 zero
 
@@ -24,3 +24,15 @@ opposite
 '''
 
 #start writing your code below
+
+a = int(input("enter an integer: "))
+b = int(input("enter another integer: "))
+
+if a and b in range(1, a*b):
+  print("positive")
+elif a == 0 or b == 0:
+  print("zero")
+elif (a < 0 and b < 0):
+  print("negative")
+elif (a < 0 and 0 < b) or (0 < a and b < 0):
+  print("opposite")
