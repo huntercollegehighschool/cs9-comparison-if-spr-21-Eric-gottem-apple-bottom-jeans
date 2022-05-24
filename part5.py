@@ -15,7 +15,7 @@ Enter a month:  March
 Enter a month:  June
 30
 
-Enter a month:  February
+Enter a month:   February
 28 or 29
 
 Enter a month:  Saturday
