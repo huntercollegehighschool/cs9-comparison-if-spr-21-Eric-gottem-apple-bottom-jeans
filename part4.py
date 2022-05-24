@@ -14,7 +14,7 @@ Enter a number:  -5
 Enter another number:  -2
 negative
 
-Enter a number:  7
+Enter  a number:  7
 Enter another number:  0
 zero
 
