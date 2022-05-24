@@ -11,9 +11,9 @@ An example of what should appear on the console when the code is run:
 Enter a number: 11
 Enter another number: 2
 Enter another number: 5
-
+ 
 The smallest number is 2
-'''
+'''       
 
 """
 x = int(input("Enter a number: "))
